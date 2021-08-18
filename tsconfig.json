@@ -8,10 +8,15 @@
         "moduleResolution": "node",
         "module": "esnext",
         "target": "es2017",
-        "noUnusedLocals": true,
-        "noUnusedParameters": true,
         "jsx": "react",
-        "jsxFactory": "h"
+        "jsxFactory": "h",
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "noUncheckedIndexedAccess": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true
     },
     "include": ["src"],
     "exclude": ["node_modules"]
